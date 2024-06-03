@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Rules
+namespace Fina.Core.Roles
 {
-    public interface ICategoryRule
+    public interface ICategoryRole
     {
         Task<Response<Category?>> CreateAsync(CreateCategoryResquest resquest);
         Task<Response<Category?>> UpdateAsync(UpdateCategoryResquest resquest);

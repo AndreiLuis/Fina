@@ -8,9 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Fina.Core.Rules
+namespace Fina.Core.Roles
 {
-    public interface ITransactionRule
+    public interface ITransactionRole
     {
         Task<Response<Transaction?>> CreateAsync(CreateTransactionRequest resquest);
         Task<Response<Transaction?>> UpdateAsync(UpdateTransactionRequest resquest);
